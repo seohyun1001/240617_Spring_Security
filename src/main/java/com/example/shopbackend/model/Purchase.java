@@ -29,7 +29,7 @@ public class Purchase {
     private Product product;
 
     @Column(name = "price", nullable = false)
-    private Integer price;
+    private Integer quantity;
 
     @Column(name = "purchase_time", nullable = false)
     private LocalDateTime purchaseTime;
